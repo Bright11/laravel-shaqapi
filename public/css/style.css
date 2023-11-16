@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+.container{
+    width: 90vw;
+    margin: 50px auto;
+}
+.items-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item{
+    box-shadow: 0px 7px 30px -20px;
+    background-color: white;
+    padding: 8px;
+    position: relative;
+}
+.item h1{
+    margin: 0px;
+    padding: 0px;
+}
+.cart-holder{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.item .buynow{
+   display: flex;
+   text-align: center;
+   background-color: red;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   padding: 5px;
+}
+.item .buynow a{
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+}
+.container form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6px;
+    box-shadow: 0px 7px 30px -20px;
+    width: 50%;
+    margin: 0px auto;
+}
+
+form input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    margin: 5px 0px;
+}
+form button{
+    width: 100%;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.customer_item_invoice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer_item_invoice div h1{
+    font-size: 15px;
+    font-weight: 300;
+}
