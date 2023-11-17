@@ -5,8 +5,9 @@
 - to add a product or item, you must be authenticated, after authentication,
 - you need to create or add item into database,
 - you can also edit or delete an item,
+- remember, you can only do it if you are authenticated
 ## How to buy
-- To create an invoice, you need to click on the item user wants to buy,
+- To create an invoice, you need to click on the item you wants to buy,
 - each item is have issued or expiring date
 - links structured
 - Register link post request http://127.0.0.1:8000/api/register
