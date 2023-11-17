@@ -1,14 +1,14 @@
 ## Api using laravel
-- To use this API, you must have postman or use it on your browser
+- To use this API, you must have Postman or use it on your browser
 - we have registration and login.
 - Start the project by using php artisan serve
 - to add a product or item, you must be authenticated, after authentication,
-- you need to create or add item into database,
+- you need to create or add item into the database,
 - you can also edit or delete an item,
 - remember, you can only do it if you are authenticated
 ## How to buy
-- To create an invoice, you need to click on the item you wants to buy,
-- each item is having issued or expiring date
+- To create an invoice, you need to click on the item you want to buy,
+- each item has an issued and expiring date
 - links structured
 - Register link post request http://127.0.0.1:8000/api/register
 - Login post request http://127.0.0.1:8000/api/login
