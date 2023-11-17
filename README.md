@@ -8,7 +8,7 @@
 - remember, you can only do it if you are authenticated
 ## How to buy
 - To create an invoice, you need to click on the item you wants to buy,
-- each item is have issued or expiring date
+- each item is having issued or expiring date
 - links structured
 - Register link post request http://127.0.0.1:8000/api/register
 - Login post request http://127.0.0.1:8000/api/login
